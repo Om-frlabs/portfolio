@@ -1,0 +1,68 @@
+'use client'
+
+import ScrollReveal from '@/components/ui/ScrollReveal'
+import GlassCard from '@/components/ui/GlassCard'
+import NeonButton from '@/components/ui/NeonButton'
+
+export default function AxiomTeaser() {
+  return (
+    <section id="axiom" className="relative py-24 md:py-32 px-4">
+      <div className="max-w-5xl mx-auto">
+        <ScrollReveal>
+          <GlassCard
+            className="relative overflow-hidden circuit-pattern text-center py-16 md:py-20 border-[rgba(191,0,255,0.2)]"
+            hover
+          >
+            {/* Purple glow accents */}
+            <div className="absolute top-0 left-1/4 w-64 h-64 bg-neon-purple/5 rounded-full blur-[100px] pointer-events-none" />
+            <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-neon-purple/5 rounded-full blur-[100px] pointer-events-none" />
+
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-neon-purple/30 bg-neon-purple/10 mb-8">
+              <span className="w-2 h-2 rounded-full bg-neon-purple animate-pulse" />
+              <span className="font-mono text-xs uppercase tracking-wider text-neon-purple-dim">
+                In Development
+              </span>
+            </div>
+
+            {/* Title */}
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold uppercase tracking-tight mb-4 neon-text-purple text-neon-purple">
+              AXIOM Protocol
+            </h2>
+
+            {/* Subtitle */}
+            <p className="font-mono text-sm md:text-base text-text-secondary mb-6 max-w-2xl mx-auto">
+              Global Agent Identity & Trust Layer for Autonomous AI
+            </p>
+
+            {/* Description */}
+            <p className="text-base md:text-lg text-text-secondary max-w-xl mx-auto mb-10 leading-relaxed">
+              Building the trust infrastructure for a world where AI agents operate across organizational boundaries.
+            </p>
+
+            {/* Credits */}
+            <p className="font-mono text-xs text-text-muted mb-8">
+              Fr Labs Research Division · Est. 2025
+            </p>
+
+            {/* CTA */}
+            <div className="relative group inline-block">
+              <NeonButton
+                variant="ghost"
+                className="cursor-not-allowed opacity-60 border-neon-purple/30 text-neon-purple-dim hover:bg-transparent"
+                disabled
+              >
+                Learn More →
+              </NeonButton>
+              <div className="absolute -top-10 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+                <span className="font-mono text-xs text-neon-purple bg-glass px-3 py-1.5 rounded border border-neon-purple/20 whitespace-nowrap">
+                  Coming Soon
+                </span>
+              </div>
+            </div>
+          </GlassCard>
+        </ScrollReveal>
+      </div>
+    </section>
+  )
+}
