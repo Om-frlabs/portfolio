@@ -46,20 +46,14 @@ export default function AxiomTeaser() {
             </p>
 
             {/* CTA */}
-            <div className="relative group inline-block">
-              <NeonButton
-                variant="ghost"
-                className="cursor-not-allowed opacity-60 border-neon-purple/30 text-neon-purple-dim hover:bg-transparent"
-                disabled
-              >
-                Learn More →
-              </NeonButton>
-              <div className="absolute -top-10 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-                <span className="font-mono text-xs text-neon-purple bg-glass px-3 py-1.5 rounded border border-neon-purple/20 whitespace-nowrap">
-                  Coming Soon
-                </span>
-              </div>
-            </div>
+            <NeonButton
+              href="https://fr-labs-dev.github.io/axiom/"
+              external
+              variant="ghost"
+              className="border-neon-purple/30 text-neon-purple-dim hover:border-neon-purple hover:text-neon-purple"
+            >
+              Explore AXIOM →
+            </NeonButton>
           </GlassCard>
         </ScrollReveal>
       </div>

@@ -127,7 +127,7 @@ GEMINI_API_KEY=your-gemini-api-key
 | **RAGChat** | Multi-provider RAG chatbot with pgvector | [Live](https://ragchat-xi.vercel.app) |
 | **AI Code Review** | Security audit with 30+ CWE checks & CVSS scoring | [GitHub](https://github.com/Om-frlabs/AI-code-review) |
 | **Axiom Feed** | AI content curation with embedding-based interest vectors | [GitHub](https://github.com/Om-frlabs/axiom-feed) |
-| **AXIOM Protocol** | Global trust & identity layer for AI agents | *In Development* |
+| **AXIOM Protocol** | Global trust & identity layer for AI agents | [Website](https://fr-labs-dev.github.io/axiom/) |
 
 ---
 

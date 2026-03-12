@@ -34,7 +34,7 @@ function buildFallbackResponse(query: string): string {
   }
 
   if (q.includes('axiom') && (q.includes('protocol') || q.includes('trust') || q.includes('agent'))) {
-    return `**AXIOM Protocol** is Om's most ambitious project — a Global Agent Identity and Trust Protocol for autonomous AI agents.\n\nFour-layer architecture: Identity/Registry (Ed25519), Behavioral Telemetry, Reputation Oracle (graph neural networks), and Policy Federation Gateway.\n\nTech: PLONK/BN254 ZK proofs, custom Anchor Policy Language, Python SDK.\n\nCurrently in development under Fr Labs Research Division.`
+    return `**AXIOM Protocol** is Om's most ambitious project — a Global Agent Identity and Trust Protocol for autonomous AI agents.\n\nFour-layer architecture: Identity/Registry (Ed25519), Behavioral Telemetry, Reputation Oracle (graph neural networks), and Policy Federation Gateway.\n\nTech: PLONK/BN254 ZK proofs, custom Anchor Policy Language, Python SDK.\n\nCurrently in development under Fr Labs Research Division.\n\nWebsite: https://fr-labs-dev.github.io/axiom/`
   }
 
   if (q.includes('code review') || q.includes('security') || q.includes('audit')) {

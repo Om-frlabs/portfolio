@@ -28,7 +28,7 @@ export const KNOWLEDGE_BASE: KnowledgeChunk[] = [
   },
   {
     id: 'axiom_protocol',
-    content: `AXIOM Protocol is Om's most ambitious project — a Global Agent Identity and Trust Protocol for autonomous AI agents. It's a four-layer architecture: Identity/Registry (Ed25519 signatures), Behavioral Telemetry, Reputation Oracle (graph neural networks), and Policy Federation Gateway. Technical specs include PLONK/BN254 ZK proofs, a custom Anchor Policy Language (APL), and Python SDK. Currently in development under Fr Labs Research Division, targeting technical co-founders, enterprise design partners, and seed investors.`,
+    content: `AXIOM Protocol is Om's most ambitious project — a Global Agent Identity and Trust Protocol for autonomous AI agents. It's a four-layer architecture: Identity/Registry (Ed25519 signatures), Behavioral Telemetry, Reputation Oracle (graph neural networks), and Policy Federation Gateway. Technical specs include PLONK/BN254 ZK proofs, a custom Anchor Policy Language (APL), and Python SDK. Currently in development under Fr Labs Research Division, targeting technical co-founders, enterprise design partners, and seed investors. Website: https://fr-labs-dev.github.io/axiom/`,
     embedding: [],
   },
   {
