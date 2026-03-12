@@ -29,7 +29,7 @@ export default function Contact() {
               <p className="text-sm text-text-secondary mb-8 max-w-xs leading-relaxed">
                 Download my resume to see my full experience, education, and project details.
               </p>
-              <NeonButton href="/Om_Mishra_Resume.pdf" external size="lg">
+              <NeonButton href="/resume.pdf" external size="lg">
                 <Download size={16} />
                 Download Resume
               </NeonButton>
