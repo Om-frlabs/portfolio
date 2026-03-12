@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
   { label: 'AXIOM', href: '#axiom' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 export default function Navbar() {

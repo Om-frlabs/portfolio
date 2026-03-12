@@ -24,7 +24,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="mailto:om@frlabs.dev"
+            href="mailto:omsmishra2015@gmail.com"
             className="flex items-center gap-2 font-mono text-sm text-text-secondary hover:text-neon-cyan transition-colors"
             aria-label="Email"
           >
@@ -35,7 +35,7 @@ export default function Footer() {
 
         {/* Credits */}
         <p className="font-mono text-xs text-text-muted leading-relaxed">
-          Built with Next.js · Claude API · Deployed on Vercel
+          Built with Next.js · Gemini API · Deployed on Vercel
         </p>
         <p className="font-mono text-xs text-text-muted mt-1">
           © 2025 Om Mishra · Fr Labs

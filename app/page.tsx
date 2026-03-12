@@ -8,6 +8,7 @@ import Projects from '@/components/sections/Projects'
 import AxiomTeaser from '@/components/sections/AxiomTeaser'
 import Skills from '@/components/sections/Skills'
 import ChatCTA from '@/components/sections/ChatCTA'
+import Contact from '@/components/sections/Contact'
 import Footer from '@/components/sections/Footer'
 
 const ParticleField = dynamic(
@@ -29,6 +30,7 @@ export default function Home() {
         <AxiomTeaser />
         <Skills />
         <ChatCTA />
+        <Contact />
       </main>
 
       <Footer />
